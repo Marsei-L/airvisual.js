@@ -1,6 +1,6 @@
 # airvisual.js
 
-```
+```JavaScript
 "use strict";
 
 const AirVisual = require("airvisual-client");
@@ -19,6 +19,4 @@ async function main() {
   const station = stations[0];
   console.log(station);
 }
-
-
 ```
