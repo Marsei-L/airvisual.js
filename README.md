@@ -3,7 +3,7 @@
 ```JavaScript
 "use strict";
 
-const AirVisual = require("airvisual-client");
+const AirVisual = require("@marseil/airvisual-client");
 
 async function main() {
   const api = new AirVisual({
