@@ -1,0 +1,35 @@
+{
+  "name": "@marseil/airvisual",
+  "version": "1.0.0",
+  "description": "Helper to use IQAir AirVisual API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marsei-L/airvisual.js.git"
+  },
+  "keywords": [
+    "IQAir",
+    "AirVisual",
+    "Air",
+    "Quality",
+    "Weather",
+    "Pollution"
+  ],
+  "author": "Marseille Ludovic",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/Marsei-L/airvisual.js/issues"
+  },
+  "homepage": "https://github.com/Marsei-L/airvisual.js#readme",
+  "dependencies": {
+    "superagent": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.1.2",
+    "jest": "^29.1.2"
+  }
+}

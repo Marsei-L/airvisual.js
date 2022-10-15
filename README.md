@@ -1,13 +1,15 @@
 # airvisual.js
 
+IQAir AirVisual Public API Wrapper
+
 ```JavaScript
 "use strict";
 
-const AirVisual = require("@marseil/airvisual-client");
+const AirVisual = require("@marseil/airvisual");
 
 async function main() {
   const api = new AirVisual({
-    apiKey: "someKey",
+    apiKey: "YOUR-API-KEY",
     apiVersion: "v2",
   });
   const countries = await api.getCountries();
