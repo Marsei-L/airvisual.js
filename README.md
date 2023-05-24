@@ -1,5 +1,7 @@
 # airvisual.js
 
+Get an API key on [iqair.com/air-pollution-data-api](https://www.iqair.com/air-pollution-data-api])
+
 IQAir AirVisual Public API Wrapper
 
 ```JavaScript
